@@ -1,0 +1,27 @@
+.navbar-blue{
+    color:#ff22ff;
+}
+.portfolio-hover{
+    color:#000;
+}
+.portfolio-hover:active{
+    color:#1E4269;
+}
+.fa-stack{
+    border-radius: 50%;
+    background-color: #1E4269;
+}
+.icons{
+    height: 100px;
+    text-align: center;
+}
+.footer-custom{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+    background-color: #1E4269;
+    height:20px;
+}
+.navbar a:hover{
+    color:#1E4269;
+}

@@ -6,34 +6,42 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">- Services -</h2>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <div class="icons"><img class="icons" src="{{asset('/img/laptop.png')}}"></div>
+                    <h4 class="service-heading">- Webdesign -</h4>
+                    <p class="text-muted">Fris & kwalitatief webdesign</br>HTML5, CSS3, JS, jQuery</p>
+                    <p class="text-muted"><br></p>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <div class="icons"><img class="icons" src="{{asset('/img/webservices.png')}}"></div>
+                    <h4 class="service-heading">- Webservices -</h4>
+                    <p class="text-muted">Kleine WebbApps opgebouwd in PHP - Laravel framework</p>
+                    <p class="text-muted"> <br></p>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <div class="icons"><img class="icons" src="{{asset('/img/designer.png')}}"></div>
+                    <h4 class="service-heading">- Grafisch Design -</h4>
+                    <p class="text-muted">Modern design van drukwerken </br>naamkaartjes, advertenties, banners</p>
+                    <p class="text-muted"> <br></p>
+                </div>
+                <div class="col-md-4">
+                    <div class="icons"><img class="icons" src="{{asset('/img/embedded.png')}}"></div>
+                    <h4 class="service-heading">- Embedded Systems -</h4>
+                    <p class="text-muted">Custom embedded systemen op basis van ARM technologiën</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="icons"><img class="icons" src="{{asset('/img/ccode.png')}}"></div>
+                    <h4 class="service-heading">- C/C++ applicaties -</h4>
+                    <p class="text-muted">Op maat gemaakte C/C++ applicaties met of zonder GUI</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="icons"><img class="icons" src="{{asset('/img/laptop.png')}}"></div>
+                    <h4 class="service-heading">- Embedded Systems -</h4>
+                    <p class="text-muted">Custom embedded systemen op basis van ARM technologiën</p>
                 </div>
             </div>
         </div>
@@ -44,8 +52,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">- Projects -</h2>
+                    <h3 class="section-subheading text-muted">Een mix van persoonlijke- en schoolprojecten</h3>
                 </div>
             </div>
             <div class="row">
@@ -56,11 +64,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="{{asset('img/SIM.jpg')}}" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>Sound Impulse Marker</h4>
+                        <p class="text-muted">Embedded System</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -70,10 +78,10 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="{{asset('img/SIM.jpg')}}" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
+                        <h4>Aksent Bed-Collection</h4>
                         <p class="text-muted">Website Design</p>
                     </div>
                 </div>
@@ -84,7 +92,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="{{asset('img/SIM.jpg')}}" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Treehouse</h4>
@@ -98,7 +106,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                        <img src="{{asset('img/SIM.jpg')}}" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Golden</h4>
@@ -112,7 +120,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                        <img src="{{asset('img/SIM.jpg')}}" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Escape</h4>
@@ -126,7 +134,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                        <img src="{{asset('img/SIM.jpg')}}" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Dreams</h4>

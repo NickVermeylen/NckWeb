@@ -12,7 +12,8 @@
     <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{asset('css/agency.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/agency.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/personal.css')}}">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -24,14 +25,18 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
 </head>
 <body>
+<style>
+    #mainNav{
+        background: #fff url("{{ asset('img/navbartexture.jpg') }}") no-repeat center center;
+    }
+</style>
 <div id="app">
     <!--<body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top navbar-blue">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -67,6 +72,9 @@
     </nav>
 
     @yield('content')
+</div>
+<div class="footer-custom">
+    Created by Nick Vermeylen - all rights reserved
 </div>
 <!-- jQuery -->
 <script src="{{asset('js/jquery/jquery.min.js')}}"></script>
